@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/fonts/leaguespartan-bold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/leaguespartan-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('/fonts/leaguespartan-bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('/fonts/leaguespartan-bold.woff') format('woff'), /* Pretty Modern Browsers */
+      url('/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg'); /* Legacy iOS */
+      font-weight: bold;
+      font-style: normal;
+}
+
+body {
+	font-family: 'League Spartan', sans-serif;
+	background-color: #CDC5C5;
+	color: white;
+	text-align: center;
+}
+
+.wrapper {
+	width: 750px;
+	margin: 15% auto;	
+}
+
+.big {
+	font-size: 55px;
+	padding: 15px 0;
+}
+
+.med {
+	font-size: 24px;
+	padding: 9em 0 2em;
+}
+
+.small {
+	font-size: 22px;
+	padding: 15px 0;
+}
+
+.brand-logo img:hover {
+	color: #6F5723;
+}
+
+@media screen and (min-width:1200px) {
+	.wrapper {
+		margin: 12% auto;
+	}
+}
+
+@media screen and (max-width:750px) {
+	.wrapper {
+		width: 500px;
+	}
+
+	.big {
+		font-size: 50px;
+		padding: 40px 0;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.wrapper {
+		width: 300px;
+	}
+
+	.big {
+		font-size: 40px;
+		padding: 75px 0;
+	}
+
+	.med {
+		font-size: 1.1em;
+		padding: 15em 0 2em;
+	}
+}
